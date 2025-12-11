@@ -293,7 +293,10 @@ footer.site {
     -webkit-tap-highlight-color: transparent;
 }
 
-
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"><rect x="1" y="3" width="14" height="12" rx="2" stroke="white" fill="none"/><line x1="4" y1="1" x2="4" y2="5" stroke="white"/><line x1="12" y1="1" x2="12" y2="5" stroke="white"/></svg>');
+    cursor: pointer;
+}
 
 .green {
     background-color: #2196f3!important;
