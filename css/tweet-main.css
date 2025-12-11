@@ -14,6 +14,21 @@ body {
   
 }
 
+#checkbox_id1, #checkbox_id2, #checkbox_id3, #checkbox_id4, #checkbox_id5, #checkbox_id6, #checkbox_id7, #checkbox_id8, #checkbox_id9, #checkbox_id10, #checkbox_id11, #checkbox_id12, #checkbox_id13, #checkbox_id14, #checkbox_id15, #checkbox_id16, #checkbox_id17, #checkbox_id18, #checkbox_id19, #checkbox_id20, #checkbox_id21{
+  opacity:98%;
+  pointer-events: all;
+  padding: 0.05rem;
+  width: 14.2px;
+  height: 14.2px;
+  margin-block: 2.5px;
+}
+
+.span_check{
+  font-size: 0.95rem;
+  margin-left: 1.5rem;
+  color: white;
+}
+
 .flow-text {
   font-size: 1.2rem;
 }
@@ -22,7 +37,15 @@ width:80%;
 }
 
 button.btn-style{
+  margin: 0%;
   background-color: #ee6e73;
+}
+
+.listmusic{
+  text-align: center;
+  color: #01579B!important;
+  font-size: 13.6px;
+  text-size-adjust: 0.5rem;
 }
 
 .hour-style{
@@ -156,7 +179,8 @@ span {
 
 
 .manta{
-  margin-top: 0.5rem;
+
+  width: 5%;
 }
 .tweet-style {
   background-color: white;

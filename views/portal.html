@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Section Fotos</title>
+  <title>Invitados</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta http-equiv="content-type" content="text/html;UTF-8">
   <meta http-equiv="cache-control" content="cache">
   <meta http-equiv="content-language" content="es">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-   
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400,500,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Enlazamos íconos de fontawesome -->
@@ -21,391 +21,159 @@
 
 <body>
   <nav class="white nav-wrapper">
-        <a href="#" class="brand-logo">
+        <a href="#" class="brand-logo" id = "scroll-to-post">
             <img src="../assets/logo/fa3.png" class="logo-img responsive-img" alt="">
         </a>      
-        <button class="btn-out green right" id="signout">salir</button>
+        <button class="btn-out green right" id="signout">Ver tarjeta</button>
   </nav>
-  <a href="https://docs.google.com/spreadsheets/d/1Km90-_6m3bsDotqCjNmDp0wOd6_H1r17X0ZSNe-fnZk/edit#gid=1743718261" id="whatsapp" target="_blank">    
-    <img src="../assets/img/jira.png" >
-  </a> 
-  <div class="fixed-action-btn">
-    <a class="btn-floating btn-large light-blue">
-      <i class="large material-icons">mode_edit</i>
-    </a>
-    <ul> 
-      <li><a class="btn-floating blue" href="https://drive.google.com/drive/u/0/folders/1HNb_sBFsb6U0O_JW1k4PHsag4CT6SKM3" target="_blank"><i class="material-icons">pan_tool</i></a></li>
-      <li><a class="btn-floating red" href="https://drive.google.com/drive/u/0/folders/1l1iAreSCZmQgetJGrapnEXyGxx8h3Zh_" target="_blank"><i class="material-icons">live_help</i></a></li>
-      <li><a class="btn-floating purple darken-1" href="https://drive.google.com/drive/u/0/folders/1FjJMCo5J7tOpW_LTjokWM1pv6s9OwzKw" target="_blank"><i class="material-icons">library_books</i></a></li>
-      <li><a class="btn-floating light-green" href="https://spa-react-bbva.web.app/react-spa-bbva/documents" target="_blank"><i class="material-icons">local_library</i></a></li>
-      <li><a class="btn-floating yellow darken-4" href="https://drive.google.com/drive/u/0/folders/1fyeoCxrrx0pPYQxEQOY4l5aFVxS-qUbp" target="_blank"><i class="material-icons">attach_file</i></a></li>
-    </ul>
-  </div>
+  <a href="https://chat.whatsapp.com/EiLur460DSt0a61CxWVfWe" id="whatsapp" target="_blank">    
+    <img src="../assets/img/whatsapp.svg" >
+  </a>
 
   <div class="container center main-style"> 
-   <div class="row">    
-     <div class="container">
-         <div class="user card horizontal">
-            <div  class="perfil-text col s6 l6 m6">              
-              <span class="perfil-text" id="user-name">
-              </span>
-            </div>    
-            <div class=" perfil-text col s6 m6 l6"> 
-              
-              <span class="perfil-text" id="user-annex">
-              </span> 
-            </div>
-           <div class="col s4 m4 l4">   
-              <div class="right">
-                <img src="../assets/img/sissor.png" class="circle responsive-img">
-              </div>
-           </div>
-           <h2></h2>
-           <h2></h2>
-      </div> 
-      
-     </div> 
-       
+   <div class="row">
   	  <div class="col s12 m12 l12">	
       
-      <div class="container">	            
-  		  <div class="row">              
-              <div class="poster col s12 l12 m12">
-                <h4 class="center blue-text"><span class="material-icons">create</span><span>POSTEA TUS CASOS</span></h4>
-                <div class="col s4 l2 m2" id="user-photo"></div>
-                <div id="post">          
-                  <textarea class="col s8 l9 m9"id="text" placeholder="¿Qué deseas que se realize en tu proyecto?"></textarea>
-                  <button id="btn" type="button" class="red" name="btn">publicar</button>
-                  <span id="counter" class="counter"></span>      
-                </div>
-              </div> 
-              <div class="col l12 s12 m12 container-tweets" id="container-tweets">
-                  
-              </div>          
-        </div>
-          
-  		<div class="candidatos"> 
-           <div class="row">     
-  		       <h2 class="center white-text"><span><a class="white-text" href="https://forms.office.com/e/cyMY5QzFmV" target="_blank">Pedidos<span class="large material-icons">touch_app</span></a></span></h2>
-             <div class="col s12 m12 l12">              
-                <div class="carousel">                  
-                 <a class="carousel-item" href="https://drive.google.com/drive/folders/10nOWeukDHC1RkaBIofhaHqb3PRIY4vb5?usp=sharing" target="_blank"><img style="max-width: 100%" src="../assets/img/news/A0.png"></a>
-                 <a class="carousel-item" href="https://drive.google.com/drive/folders/1z09vpstMLGyBmxG42W402rhO2OaAxU-i?usp=sharing" target="_blank"><img src="../assets/img/news/A1.png"></a>
-                 <a class="carousel-item" href="https://drive.google.com/drive/folders/1cLmmqxaxfSmoLeIH0-x4p8rZJzpF6Sdg?usp=sharing" target="_blank"><img src="../assets/img/news/A2.png"></a>
-                 <a class="carousel-item" href="https://drive.google.com/drive/folders/1Bt2f09_xB9OtTXFhaNpXv6lJsJOAv8qF?usp=sharing" target="_blank"><img src="../assets/img/news/A3.png"></a>
-                 <a class="carousel-item" href="https://drive.google.com/drive/folders/1fX1ThJSzLZfdU390h6g5HfoDZJacnCDt?usp=sharing" target="_blank"><img src="../assets/img/news/A4.png"></a>
-                 <a class="carousel-item" href="https://drive.google.com/drive/folders/1PAne-TUcRzrhnOyc588fHHghBpKkjVM1?usp=sharing" target="_blank"><img src="../assets/img/news/A5.png"></a>
-                 <a class="carousel-item" href="https://drive.google.com/drive/folders/10t5Fq5VoX_ut3kzsLiOqxX9DCiP1Prwr?usp=sharing" target="_blank"><img src="../assets/img/news/A6.png"></a>
-                 <a class="carousel-item" href="https://drive.google.com/drive/folders/1FiscyXmzCmkC2oums_aPlwbv6PNO_UCe?usp=sharing" target="_blank"><img src="../assets/img/news/A7.png"></a>
-                </div>
-             </div>
-           </div> 
-  		</div>
-     </div>
+
      <!--2-->
   	         <!--pie de la web --> 
                      <!--modal de fotos -->   
 
 <!--end 2-->
          <!--footer class="page-footer green"-->
-          <div class="container softly" id="listbot">
-              <div class="row">
-                <div class="col l10 s12 push-l1 softly">
-                    <div class="col l5 s6 push-l1 ">
-                     <ul class="collection with-header blue">
-                      <li class="collection-header white-text coll teal btn-new "><h5>Observación:</h5></li>
-                      <li ><a class="col s12 waves-effect waves-light btn1 light-blue darken-4" href="https://drive.google.com/drive/folders/1OfEvf6pr8aydLOE0yXtKU2iauMNgMFYQ?usp=sharing" target="_blank">Scala</a></li>
-                      <li ><a class=" col s12 waves-effect waves-dark btn1 blue darken-4" href="https://drive.google.com/drive/folders/1RuaOy7f7cVTStqA74t9MsoOScUGN_mpO?usp=sharing" target="_blank">Scaffolder</a></li>
-                      <li ><a class="col s12 waves-effect waves-dark btn1 light-blue darken-4" href="https://drive.google.com/drive/folders/11z3Cv14VPwQ0nC9omGrXnfaLYQFM9JrZ?usp=sharing" target="_blank">Mallas</a></li>                 
-                      <li ><a class="col s12 waves-effect waves-dark btn1 blue darken-4" href="https://drive.google.com/drive/folders/1bv6lWDEoj84w6IaWEV_rGrXi5-YI4EWk?usp=sharing" target="_blank">Ingesta</a></li>
-                      <li ><a class="col s12 waves-effect waves-dark btn1 light-blue darken-4" href="https://drive.google.com/drive/folders/12FwcShPTxDA9chZaI7spQFXhhk2ri72T?usp=sharing" target="_blank">Reglas de Calidad</a></li>
-                      <li ><a class="col s12 waves-effect waves-dark btn1 blue darken-4" href="https://drive.google.com/drive/folders/1tH2-0pIpiYIrNCzga0o19b6wu0GV8JW5?usp=sharing" target="_blank">Operativización</a></li>
-                      <li ><a class="col s12 waves-effect waves-dark btn1 light-blue darken-4" href="https://drive.google.com/drive/folders/1tH2-0pIpiYIrNCzga0o19b6wu0GV8JW5?usp=sharing" target="_blank">Smart Cleaner</a></li>
-                      <li ><a class="col s12 waves-effect waves-dark btn1 blue darken-4" href="https://drive.google.com/drive/folders/1sn485oU9H58ZAWRs_jLSSsVv_sou-fgx?usp=sharing" target="_blank">Despliegue</a></li>
-                      <li ><a class="col s12 waves-effect waves-dark btn1 light-blue darken-4" href="https://drive.google.com/drive/folders/1gB1jUh-itSc0SRfb72ySYiM6uYpO6K36?usp=sharing" target="_blank">Otros</a></li>
-                    </ul>
-                   </div>
-                   <div class="col l5 s6 push-l1 ">
-                   <ul class="collection with-header blue">
-                     <li class="collection-header white-text coll teal white-text btn-new"><h5>solución:</h5></li>
-                     <li ><a class="col s12 waves-effect waves-light btn1 light-blue darken-4" href="https://drive.google.com/drive/folders/1aVulbkY4zHxkdF1XSDk7--hdS5o_ECx2?usp=sharing" target="_blank">Scala</a></li>
-                     <li ><a class="col s12 btn1 waves-effect waves-teal blue darken-4" href="https://drive.google.com/drive/folders/17NSWfbBmQxqFZyU7CuKSlrBb6PoDWco3?usp=sharing" target="_blank">Scaffolder</a></li>
-                     <li ><a class="col s12 waves-effect waves-light btn1 light-blue darken-4" href="https://drive.google.com/drive/folders/132XzHsY_yrVX0iEJDeTXLn-fEoMgDBwy?usp=sharing" target="_blank">Mallas</a></li>                 
-                     <li ><a class="col s12 waves-effect waves-dark btn1 blue darken-4" href="https://drive.google.com/drive/folders/1s3MggXxpt9m2pwasKDsBGmzlOb6xUd9W?usp=sharing" target="_blank">Ingesta</a></li>
-                     <li ><a class="col s12 waves-effect waves-light btn1 light-blue darken-4" href="https://drive.google.com/drive/folders/1QglEgNHpgzZgrhPNzu0Zc5oSg4EVLFHu?usp=sharing" target="_blank">Reglas de Calidad</a></li>
-                     <li ><a class="col s12 waves-effect waves-light btn1 blue darken-4" href="https://drive.google.com/drive/folders/1AKDGZZmffjW4g60HUF4et43FRhDuciPG?usp=sharing" target="_blank">Operativización</a></li>
-                     <li ><a class="col s12 waves-effect waves-light btn1 light-blue darken-4" href="https://drive.google.com/drive/folders/1AKDGZZmffjW4g60HUF4et43FRhDuciPG?usp=sharing" target="_blank">Smart Cleaner</a></li>
-                     <li ><a class="col s12 waves-effect waves-light btn1 blue darken-4" href="https://drive.google.com/drive/folders/1nGsYziRlN0GOGhZT3eDEttlduuhs8sn-?usp=sharing" target="_blank">Despliegue</a></li>
-                     <li ><a class="col s12 waves-effect waves-light btn1 light-blue darken-4" href="https://drive.google.com/drive/folders/1ptdhgsWzDacouOHGt8DFLmTXcMQyrxhz?usp=sharing" target="_blank">Otros</a></li>
-                  </ul>
-                 </div>
-                </div>
-              </div>
-              <hr>
-          </div>
-        <div class="container por-que" id="listbot">
-          <br>
-          <div class="containerend">
-            <br> 
-            <h5 class="white-text" style="font-size: 25px;"> ALERTAS </h5>
-             <br> 
-              <!--  -->
-             <div class="row card-row">
-              <div class="col l10 s12 push-l1" style="padding: 0;">  
-                <div class="container col l3 s2 push-l1">
-                  <img class="chip1" src="../assets/img/Jenkins_logo.png" >
-                  <label class="white-text" id="scaffolder_id">Scaffolder</label>             
-                	<!--<label class="face-color" id="scaffolder_id">Scaffolder</label>-->
-                  <div class="switch">
-                    <label class="face-color" style="font-weight:900;font-size: 15.2px;color:black;">
-                      off
-                      <input type="checkbox" id="checkbox_id1">
-                      <span class="lever"></span>
-                      on
-                    </label>
-                  </div>
-                </div>
-                <div class="container col l4 s5 push-l1">
-                  <ul>
-                     <li><a href="https://drive.google.com/drive/folders/1lpfoioEejFoDTQCiGD5JiXhi0VZwRn9l" id="alarm-ativo" target="_blank">
-                      <img  id="imgalarm1" >
-                      </a></li>
-                  </ul>
-                </div>
-                <div class="container col l3 s5 push-l1" style="padding-right: 0;">
-                  <br>
-                  <span class="face-time time-style" id="timealarm1" style="display:none;box-shadow: 0 0 0.5px 1.8px #FFFFFF;"></span>
-                </div>
-              </div>
-             </div>
-             <div class="row card-row">
-              <div class="col l10 s12 push-l1" style="padding: 0;">  
-                <div class="container  col l3 s2 push-l1">
-                  <img class="chip1" src="../assets/img/Jenkins_logo.png" >    
-                	<label class="white-text" id="scaffolder_id">Scala</label>
-                  <div class="switch">
-                    <label class="face-color" style="font-weight:900;font-size: 15.2px;color:black;">
-                      off
-                      <input type="checkbox" id="checkbox_id2">
-                      <span class="lever"></span>
-                      on
-                    </label>
-                  </div>
-                </div>
-                <div class="container col l4 s5 push-l1">
-                  <ul>
-                     <li><a href="https://drive.google.com/drive/folders/1ExFcVx2DHSJ600-fx2Qjk_9lDTrwiF1f" id="alarm-ativo" target="_blank">
-                      <img  id="imgalarm2" >
-                      </a></li>
-                  </ul>
-                </div>
-                <div class="container col l3 s5 push-l1" style="padding-right: 0;">
-                  <br>
-                  <span class="face-time time-style" id="timealarm2" style="display:none;box-shadow: 0 0 0.5px 1.8px #FFFFFF;"></span>
-                </div>
-              </div>
-             </div>
-             <div class="row card-row">
-              <div class="col l10 s12 push-l1" style="padding: 0;">  
-                <div class="container  col l3 s2 push-l1">
-                  <img class="chip1" src="../assets/img/Jenkins_logo.png" >            
-                	<label class="white-text" id="scaffolder_id">Malla</label>
-                  <div class="switch">
-                    <label class="face-color" style="font-weight:700;font-size: 15.2px;color:black;">
-                      off
-                      <input type="checkbox" id="checkbox_id3">
-                      <span class="lever"></span>
-                      on
-                    </label>
-                  </div>
-                </div>
-               <div class="container col l4 s5 push-l1">
-                  <ul>
-                     <li><a href="https://drive.google.com/drive/folders/1FjyMUToz9qRz4udRHWvBsiZesqVvft89" id="alarm-ativo" target="_blank">
-                      <img  id="imgalarm3" >
-                      </a></li>
-                  </ul>
-               </div>
-               <div class="container col l3 s5 push-l1" style="padding-right: 0;">
-                  <br>
-                  <span class="face-time time-style" id="timealarm3" style="display:none;box-shadow: 0 0 0.5px 1.8px #FFFFFF;"></span>
-               </div>
-              </div>
-             </div>
-             <div class="row card-row">
-              <div class="col l10 s12 push-l1" style="padding: 0;">  
-                <div class="container col l3 s2 push-l1">
-                  <img class="chip1" src="../assets/img/Jenkins_logo.png" >                  
-                	<label class="white-text" id="scaffolder_id">Ingesta</label>
-                  <div class="switch">
-                    <label class="face-color" style="font-weight:700;font-size: 15.2px;color:black;">
-                      off
-                      <input type="checkbox" id="checkbox_id4">
-                      <span class="lever"></span>
-                      on
-                    </label>
-                  </div>
-                </div>
-                <div class="container col l4 s5 push-l1">
-                  <ul>
-                     <li><a href="https://drive.google.com/drive/folders/173lwBDa9Ol81DmptbtIqpE2BaMtes_RG" id="alarm-ativo" target="_blank">
-                      <img  id="imgalarm4" >
-                      </a></li>
-                  </ul>
-                </div>
-                <div class="container col l3 s5 push-l1" style="padding-right: 0;">
-                  <br>
-                  <span class="face-time time-style" id="timealarm4" style="display:none;box-shadow: 0 0 0.5px 1.8px #FFFFFF;"></span>
-                </div>
-              </div>
-             </div>
-             <div class="row card-row">
-              <div class="col l10 s12 push-l1" style="padding: 0;">  
-                <div class="container col l3 s2 push-l1">
-                  <img class="chip1" src="../assets/img/Jenkins_logo.png" >                  
-                	<label class="white-text" id="scaffolder_id">Reglas de Calidad</label>
-                  <div class="switch">
-                    <label class="face-color" style="font-weight:900;font-size: 15.2px;color:black;">
-                      off
-                      <input type="checkbox" id="checkbox_id5">
-                      <span class="lever"></span>
-                      on
-                    </label>
-                  </div>
-                </div>
-                <div class="container col l4 s5 push-l1">
-                  <ul>
-                     <li><a href="https://drive.google.com/drive/folders/1XCKh6P37_wZVQhfgCRQFcop65iDsVzyW" id="alarm-ativo" target="_blank">
-                      <img  id="imgalarm5" >
-                      </a></li>
-                  </ul>
-                </div>
-                <div class="container col l3 s5 push-l1" style="padding-right: 0;">
-                  <br>
-                  <span class="face-time time-style" id="timealarm5" style="display:none;box-shadow: 0 0 0.5px 1.8px #FFFFFF;"></span>
-                </div>
-              </div>
-             </div>
-             <div class="row card-row">
-               <div class="col l10 s12 push-l1" style="padding: 0;">  
-                <div class="container col l3 s2 push-l1">
-                  <img class="chip1" src="../assets/img/Jenkins_logo.png" >                  
-                	<label class="white-text" id="scaffolder_id">Operativización</label>
-                  <div class="switch">
-                    <label class="face-color" style="font-weight:900;font-size: 15.2px;color:black;">
-                      off
-                      <input type="checkbox" id="checkbox_id6">
-                      <span class="lever"></span>
-                      on
-                    </label>
-                  </div>
-                 </div>
-                <div class="container col l4 s5 push-l1">
-                    <ul><li><a href="https://drive.google.com/drive/folders/1MJ46OeDNpaGiQODWmbmSeWrBUjZD-vtR" id="alarm-ativo" target="_blank">
-                      <img  id="imgalarm6" style="margin-top: 1.5rem;" >
-                      </a></li></ul>
-                </div>
-                <div class="container col l3 s5 push-l1" style="padding-right: 0">
-                  <br>
-                  <span class="face-time time-style" id="timealarm6" style="display:none;box-shadow: 0 0 0.5px 1.8px #FFFFFF;">
-                </div>
-              </div>
-             </div>
-             <div class="row card-row">
-              <div class="col l10 s12 push-l1" style="padding: 0;">  
-                <div class="container col l3 s2 push-l1">
-                  <img class="chip1" src="../assets/img/Jenkins_logo.png" >                  
-                	<label class="white-text" id="scaffolder_id">Smart Cleaner</label>
-                  <div class="switch">
-                    <label class="face-color" style="font-weight:900;font-size: 15.2px;color:black;">
-                      off
-                      <input type="checkbox" id="checkbox_id7">
-                      <span class="lever"></span>
-                      on
-                    </label>
-                  </div>
-                </div>
-                <div class="container col l4 s5 push-l1">
-                  <ul>
-                     <li><a href="https://drive.google.com/drive/folders/1fkeJ_Zn-L74vtIUgw0ijHhhJNxOv2Wbx" id="alarm-ativo" target="_blank">
-                      <img  id="imgalarm7" >
-                      </a></li>
-                  </ul>
-                </div>
-                <div class="container col l3 s5 push-l1" style="padding-right: 0;">
-                  <br>
-                  <span class="face-time time-style" id="timealarm7" style="display:none;box-shadow: 0 0 0.5px 1.8px #FFFFFF;">
-                </div>
-              </div>
-             </div>
-             <div class="row card-row">
-              <div class="col l10 s12 push-l1" style="padding: 0;">  
-                <div class="container col l3 s2 push-l1">
-                  <img class="chip1" src="../assets/img/Jenkins_logo.png" >           
-                	<label class="white-text" id="scaffolder_id">Despliegue</label>
-                  <div class="switch">
-                    <label class="face-color" style="font-weight:900;font-size: 15.2px;color:black;">
-                      off
-                      <input type="checkbox" id="checkbox_id8">
-                      <span class="lever"></span>
-                      on
-                    </label>
-                  </div>
-                </div>
-                <div class="container col l4 s5 push-l1">
-                  <ul>
-                     <li><a href="https://drive.google.com/drive/folders/1RAPt1fKgje9cf0A8XjRiSiW2agtWAM8T" id="alarm-ativo" target="_blank">
-                      <img  id="imgalarm8" >
-                      </a></li>
-                  </ul>
-                </div>
-                <div class="container col l3 s5 push-l1" style="padding-right: 0;">
-                  <br>
-                  <span class="face-time time-style" id="timealarm8" style="display:none;box-shadow: 0 0 0.5px 1.8px #FFFFFF;">
-                </div>
-              </div>
-             </div>
-             <div class="row card-row">
-              <div class="col l10 s12 push-l1" style="padding: 0;">  
-                <div class="container col l3 s2 push-l1">
-                  <img class="chip1" src="../assets/img/Jenkins_logo.png" >            
-                	<label class="white-text" id="scaffolder_id">Otros</label>
-                  <div class="switch">
-                    <label class="face-color" style="font-weight:900;font-size: 15.2px;color:black;">
-                      off
-                      <input type="checkbox" id="checkbox_id9">
-                      <span class="lever"></span>
-                      on
-                    </label>
-                  </div>
-                </div>
-                <div class="container col l4 s5 push-l1">
-                  <ul>
-                     <li><a href="https://drive.google.com/drive/folders/10Riqxt9lqn7u83B0_VGNhr9PJ78VhSkH" id="alarm-ativo" target="_blank">
-                      <img  id="imgalarm9" >
-                      </a></li>
-                  </ul>
-                </div>
-                <div class="container col l3 s5 push-l1" style="padding-right: 0;">
-                  <br>
-                  <span class="face-time time-style" id="timealarm9" style="display:block;box-shadow: 0 0 0.5px 1.8px #FFFFFF;">
-                </div>
-              </div>
-             </div>
-          </div>
-          <br>
-        </div>  
 
-      </div>    
-    </div>   
-  </div>
+        <div class="container por-que" id="listbot">
+          <!--BEGIN CONTAINEREND-->
+          <div class="containerend">
+              <!--begin gestion-->
+              <div class="header">
+                <div class="header-top">
+                    <br>
+                    <div class="header-title">
+                        <h6>💳 Gestión de Pagos de Tarjetas</h6>
+                    </div>
+                </div>
+                <br>
+                <div class="total-box">
+                    <p>Total:</p>
+                    <div class="total-amount" id="totalAmount" style="color:aquamarine">$0.00</div>
+                </div>
+            </div>
+              <!-- end gestion--> 
+              <!-- BEGIN -->
+
+          <br>
+
+          <!-- tarjetas de credito BEGIN-->
+          <div class="form-card" style="padding-bottom: 1rem;">
+            <div class="form-group">
+                <label class="white-text"  for="cardType">Tipo de Tarjeta</label>
+                <!--
+                <select class="browser-default btn" id="selectCity">
+                                
+                </select> -->
+                <!-- begin-->
+                <div class="row card-row">
+                    <div class="col l10 s12 push-l1">  
+                    </div>
+                </div>
+                <!-- end--> 
+                <select class="browser-default  btn btn-card"  id="cardType">
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="amsex">American Express</option>
+                    <option value="discover">Maestro</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label class="white-text" for="lastFourDigits">Últimos 4 Dígitos</label>
+                <input type="text" id="lastFourDigits" placeholder="1234" maxlength="4" pattern="\d{4}">
+            </div>
+
+            <div class="form-group">
+                <label class="white-text" for="monthlyPayment">Pago Mensual ($)</label>
+                <input type="number" id="monthlyPayment" placeholder="0.00" step="0.01" min="0">
+            </div>
+
+            <div class="form-group">
+                <label class="white-text" for="dueDate" >Fecha de Vencimiento</label>
+                <input type="date" id="dueDate">
+            </div>
+            <div class="form-group">
+                <label class="white-text" for="status">Estado</label>
+                <!-- begin-->
+                <div class="row card-row">
+                    <div class="col l10 s12 push-l1">  
+                    </div>
+                </div>
+                <!-- end--> 
+                <select class="browser-default  btn btn-card" id="status">
+                    <option value="pending">Pendiente</option>
+                    <option value="paid">Pagado</option>
+                    <option value="overdue">Vencido</option>
+                </select>
+            </div>
+            <br>
+            <div class="button-group">
+                <button class="btn btn-primary" id="submitBtn" onclick="handleSubmit()" disabled>
+                    ➕ 
+                </button>
+                <button class="btn btn-secondary" id="cancelBtn" onclick="resetForm()" style="display: none;">
+                    ✖️ 
+                </button>
+            </div>
+        </div>
+           
+        <div class="list-card">
+            <h6 id="listTitle">📋 TARJETAS REGISTRADAS (0)</h6>
+            <div class="payment-list" id="paymentList">
+                <div class="loading">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- tarjetas de credito END-->
+          <br>
+        </div> 
+<!--END CONTAINEREND-->
+</div>
+        <div class="container">	            
+          <div class="row">              
+                <div class="poster col s12 l12 m12">
+                  <br>
+                  <div id="posttext">
+                    <span class="listmusic"><i class="tiny material-icons">card_giftcard</i>¨ Por favor dejar recordatorio de sus tarjetas.</span>
+                  </div>
+                  <br>
+                  <div class="col s4 l2 m2" id="user-photo"></div>
+                  <div id="post">          
+                   <textarea class="col s8 l9 m9" id="text" placeholder=""></textarea> 
+                    <button id="btn" type="button" class="red" name="btn">Registrar</button>
+                    <span id="counter" class="counter"></span>      
+                  </div>
+                </div> 
+                <div class="col l12 s12 m12 container-tweets" id="container-tweets">
+                </div>    
+          </div>          
+        </div>
+            
+    </div>
+  </div>    
+</div>
         <footer class="page-footer site">
            <div class="container">
-			        <span>TICKETS DQA</span>
+			        <span>967081926</span>
+           </div>
+           <br>
+           <div class="container">
+            <p><i class="small material-icons">card_giftcard</i></p>
            </div>
            <div class="footer-copyright">
             <div class="container">
-                © 2023 Copyright PERÚ
+                © 2025 Copyright Lima-Perú Yanina.Mercado
             </div>
            </div>
         </footer>
@@ -425,6 +193,7 @@
     <script src="../js/datafa.js"></script>
     <script src="../js/appfa.js"></script>   
     <script src="../js/app-tweet.js"></script>
+    <script src="../js/appcard.js"></script>
     </body>
 
 </html>
