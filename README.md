@@ -1,7 +1,1 @@
-
- $('#selectCity').change(function(e){
-       var str =  '';
-       str = str +  
-    });
-
-    
+ Parte de la presentación uno de los productos bancarizados donde el cliente tiene saldos por pagar son las tarjetas de crédito que figuran en el SBS a los millones de clientes como deudores,así también tienen niveles de secuencia donde se puede obtener el diario del saldo  a pesar que este crédito es pagado mensualmente por el cliente para tener una idea inicial de gestionar pagos del producto para Core de Negocio es mostrar un bosquejo inicial del requerimeinto a solicitar para así continuar iterando hasta el detalle requerido final para su dashboard.
